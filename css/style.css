@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px 0 200px;
+    margin: 5rem 0 12.5rem;;
 }
 
 .product-card {
@@ -109,7 +109,7 @@ main {
     font-weight: 700;
     cursor: pointer;
     width: 100%;
-    transition: all 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .product-card__button:hover {
